@@ -6,10 +6,28 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "ios": { "supportsTablet": true, "bundleIdentifier": "com.labuibu.app" },
-    "android": { "package": "com.labuibu.app" },
-    "plugins": ["expo-secure-store"],
-    "runtimeVersion": { "policy": "appVersion" },
-    "updates": { "enabled": false }
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.labuibu.app"
+    },
+    "android": {
+      "package": "com.labuibu.app"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "enabled": true,
+      "url": "https://u.expo.dev/738a2034-f9ff-48c5-b7f1-9c7c64426b9f"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "738a2034-f9ff-48c5-b7f1-9c7c64426b9f"
+      }
+    },
+    "owner": "holywind"
   }
 }
